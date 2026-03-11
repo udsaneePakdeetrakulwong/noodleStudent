@@ -46,9 +46,9 @@
 
             $stmt = $conn->________(________);
             $stmt->bindParam(':foodmenuID', $_POST['______']);
-            $stmt->bindParam(':foodmenuName', $_POST['______']);
-            $stmt->bindParam('______', $_POST['______']);
-            $stmt->bindParam(':foodtypeID', $_POST['______']);
+            _____________________
+            ______________________
+          
             $stmt->bindparam(':image', $uploadFile);
             
             echo "image =" .$uploadFile;
