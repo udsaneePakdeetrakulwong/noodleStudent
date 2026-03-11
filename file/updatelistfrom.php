@@ -15,16 +15,15 @@
   <?php
   require '../connect.php';
 
-  $sql_select_list = "SELECT * FROM food_type";
-  $stmt_c = $conn->prepare($sql_select_list);
-  $stmt_c->execute();
+  $sql_select_list = _________________
+  $stmt_c = _________________
+  _______________
   echo "foodmenuID = " . $_GET['foodmenuID'];
 
   if (isset($_GET['foodmenuID'])) {
-    $sql_select_menu = 'SELECT * FROM food_menu WHERE foodmenuID=?';
-    $stmt = $conn->prepare($sql_select_menu);
-    $stmt->execute([$_GET['foodmenuID']]);
-    echo "get = " . $_GET['foodmenuID'];
+
+
+
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
   }
   ?>
